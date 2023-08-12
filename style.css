@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container .container-one {
+    display: flex;
+    flex-grow : 1;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 16px;
+    background-color: #1F2937;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.container-one .adoption-title {
+    margin-right: auto;
+}
+
+.container-one a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-container .container-two {
+    padding: 18px 24px 24px 24px;
+    gap: 16px;
+}
+
+.container-two .about-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.about-container img {
+    height: 200px;
+    width: auto;
+}
+
+.about-container .about-description {
+    font-size: 18px;
+}
+
+@media (max-width: 625px) {
+    .container-two .about-container {
+        flex-wrap: wrap;
+    }
+}
+
+.main-container .container-three {
+    background-color: #1F2937;
+    color: white;
+    padding: 24px 16px 40px 16px;
+    flex-wrap: wrap;
+}
+
+.main-container .container-three .variety {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.container-three h1 {
+    text-align: center;
+}
+
+.variety img {
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.variety div {
+    padding: 8px;
+}
+
+.main-container .container-four {
+    padding: 8px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.container-four .quote {
+    background-color: #3882F6;
+    color: white;
+    margin: 4px;
+    border-radius: 15px;
+    padding: 4px 12px 4px 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .quote-text {
+    font-size: 32px;
+}
+
+.quote .quote-author {
+    font-size: 24px;
+    align-self: end;
+}
+
+.main-container .container-five {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.fa {  
+    padding: 20px;  
+    text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: auto;  
+}
+
+.fa-instagram {  
+    background: #125688;  
+    color: white;  
+}
+
+.fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+}
+
+.container-five a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 625px) {
+    .container-two .about-container {
+        flex-wrap: wrap;
+    }
+
+    .container-three .variety {
+        flex-wrap: wrap;
+    }
+}
